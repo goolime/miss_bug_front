@@ -3,9 +3,7 @@ const axios = Axios.create({
     withCredentials: true
 })
 
-const BASE_URL = `http://localhost:${process.env.PORT || 3030}/api/bug/`
-
-console.log('ENV_port', import.meta.env.PORT);
+const BASE_URL = `http://localhost:10000/api/bug/`
 
 export const bugService = {
     query,

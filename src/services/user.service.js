@@ -3,7 +3,7 @@ const axios = Axios.create({
     withCredentials: true
 })
 
-const BASE_URL = `//localhost:${process.env.PORT || 3030}/api/`
+const BASE_URL = `//localhost:10000/api/`
 
 export const userService = {
     login,
