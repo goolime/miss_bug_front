@@ -5,6 +5,8 @@ const axios = Axios.create({
 
 const BASE_URL = `http://localhost:${process.env.PORT || 3030}/api/bug/`
 
+console.log('ENV_port', import.meta.env.PORT);
+
 export const bugService = {
     query,
     getById,
